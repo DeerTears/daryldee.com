@@ -20,8 +20,10 @@ iframe.scritch{
   margin:auto;
   width: calc(100% - 20px);
   max-width: 925px;
-  
-  min-height: 500px
+  /* if narrow */
+  min-height: 566px;
+  /* if wide*/
+  min-height: 500px;
 }
 /* === DROPDOWN HEADER === */
 
