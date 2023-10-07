@@ -87,7 +87,7 @@
         "previewStripeColor1": "#3f3f3f",
         "previewStripeColor2": "#2c2c2c",
         "linkColor": "#838383",
-        "layoutStyle": "vertical",
+        "layoutStyle": "horizontal",
         "infoStyle": "overlaid",
         "contentWidth": "400",
         "coverSize": "480",

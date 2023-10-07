@@ -15,12 +15,13 @@ html{
   height:100%;
 }
 
-iframe{
+iframe.scritch{
   display:block;
   margin:auto;
-  width:90%;
+  width: calc(100% - 20px);
+  max-width: 925px;
   height:100%;
-  min-height: 400px
+  min-height: 500px
 }
 /* === DROPDOWN HEADER === */
 
