@@ -1,0 +1,73 @@
+{
+    "title": "talk to me burnaby",
+    "media": [
+        {
+            "file": "01 cut it out.opus",
+            "type": "audio",
+            "title": "cut it out"
+        },
+        {
+            "file": "02 positive masculinity.opus",
+            "type": "audio",
+            "feature": true,
+            "title": "positive masculinity"
+        },
+        {
+            "file": "03 miserable moaner.opus",
+            "type": "audio",
+            "title": "miserable moaner"
+        },
+        {
+            "file": "04 birdsong.opus",
+            "type": "audio",
+            "title": "birdsong"
+        },
+        {
+            "file": "05 get outta there.opus",
+            "type": "audio",
+            "title": "get outta there"
+        },
+        {
+            "file": "06 when the spell runs out.opus",
+            "type": "audio",
+            "title": "when the spell runs out"
+        },
+        {
+            "file": "07 one lonely evening.opus",
+            "type": "audio",
+            "title": "one lonely evening"
+        },
+        {
+            "file": "08 birdbath.opus",
+            "type": "audio",
+            "title": "birdbath"
+        },
+        {
+            "file": "09 talk to me.opus",
+            "type": "audio",
+            "title": "talk to me"
+        }
+    ],
+    "cover": "cover.png",
+    "theme": {
+        "titleStyle": "none",
+        "backgroundColor": "#1e1e1e",
+        "primaryColor": "#ffffff",
+        "primaryAltColor": "#838383",
+        "secondaryColor": "#000000",
+        "highlightColor": "#434343",
+        "primaryTextColor": "#ffffff",
+        "primaryAltTextColor": "#838383",
+        "previewStripeColor1": "#3f3f3f",
+        "previewStripeColor2": "#2c2c2c",
+        "linkColor": "#838383",
+        "layoutStyle": "horizontal",
+        "infoStyle": "overlaid",
+        "contentWidth": "400",
+        "coverSize": "480",
+        "nativePlayer": false,
+        "customCSS": ""
+    },
+    "description": "<p>love won't save you from yourself\n            \n            \n                \n            \n            \n                      \n            </p><h3 class=\"credits-label\"><br></h3>\n            <div class=\"tralbumData tralbum-credits\">\n            \n                released April 1, 2023\n            \n            <br><br>art of burnaby by cody shigiru\n<br>\n\n<br>\ntrack 1 - background vocals, guitar, and production assistance by ashley ninelives</div><div class=\"tralbumData tralbum-credits\"><br></div><div class=\"tralbumData tralbum-credits\">track 4 - written by emberlynn bland and ashley ninelives\n<br>\n\n<br>\neverything else produced, written, recorded, performed by emberlynn bland\n<br>\n\n<br>\nthanks to:\n<br>\nashley, jm, aoife, valerie, sasha, aria, peter, ray, trait, numbers, and beth\n<br>\n\n<br>\nspecial thanks to the spare room i recorded this in\n<br>\n\n<br>\ni started this album in 2016, and i have sat on this album for too long and i think i just need to hit publish.\n            </div>",
+    "loopModeDefault": "none"
+}
