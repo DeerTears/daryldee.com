@@ -1,0 +1,99 @@
+{
+    "title": "two tone",
+    "media": [
+        {
+            "file": "01 fighting anger.opus",
+            "type": "audio",
+            "info": "",
+            "feature": true,
+            "title": "fighting anger"
+        },
+        {
+            "file": "02 earbuds for effect.opus",
+            "type": "audio",
+            "title": "earbuds for effect"
+        },
+        {
+            "file": "03 comm-e.opus",
+            "type": "audio",
+            "title": "comm-e"
+        },
+        {
+            "file": "04 i miss the spotlight.opus",
+            "type": "audio",
+            "title": "i miss the spotlight"
+        },
+        {
+            "file": "05 gated.opus",
+            "type": "audio",
+            "title": "gated"
+        },
+        {
+            "file": "06 learning in pajamas.opus",
+            "type": "audio",
+            "title": "learning in pajamas"
+        },
+        {
+            "file": "07 learning in pajamas.opus",
+            "type": "audio",
+            "title": "familay time"
+        },
+        {
+            "file": "08 just jamming (feat. bigbullybiggs).opus",
+            "type": "audio",
+            "title": "just jamming (feat. bigbullybiggs)"
+        },
+        {
+            "file": "09 heartline.opus",
+            "type": "audio",
+            "title": "heartline"
+        },
+        {
+            "file": "10 you coulda sit out.opus",
+            "type": "audio",
+            "title": "you coulda sit out"
+        },
+        {
+            "file": "11 not pawz.opus",
+            "type": "audio",
+            "title": "not pawz"
+        },
+        {
+            "file": "12 digital wobble.opus",
+            "type": "audio",
+            "title": "digital wobble"
+        },
+        {
+            "file": "13 smoke and ash.opus",
+            "type": "audio",
+            "title": "smoke and ash"
+        },
+        {
+            "file": "14 empty lament.opus",
+            "type": "audio",
+            "title": "empty lament"
+        }
+    ],
+    "cover": "cover.png",
+    "theme": {
+        "titleStyle": "none",
+        "backgroundColor": "#1e1e1e",
+        "primaryColor": "#ffffff",
+        "primaryAltColor": "#838383",
+        "secondaryColor": "#000000",
+        "highlightColor": "#434343",
+        "primaryTextColor": "#ffffff",
+        "primaryAltTextColor": "#838383",
+        "previewStripeColor1": "#3f3f3f",
+        "previewStripeColor2": "#2c2c2c",
+        "linkColor": "#838383",
+        "layoutStyle": "vertical",
+        "infoStyle": "overlaid",
+        "contentWidth": "400",
+        "coverSize": "480",
+        "nativePlayer": false,
+        "customCSS": ""
+    },
+    "description": "<div id=\"trackInfoInner\"><div class=\"tralbumData tralbum-about\">here are some ideas that i really like</div>\n            \n            \n                \n            \n            \n                      \n            <h3 class=\"credits-label\"><br></h3>\n            <div class=\"tralbumData tralbum-credits\">released October 2, 2023\n            \n            <br><br>track 7 guitar by Nick\n<br>\n\n<br>\ntrack 8 guitar by bigbullybiggs:  <a href=\"http://furaffinity.net/user/bigbullybiggs\" rel=\"nofollow ugc\">furaffinity.net/user/bigbullybiggs</a>\n<br>\n\n<br>\n track 9 additional drums by Zachary Talis:  <a href=\"https://zacharytalis.com\" rel=\"nofollow ugc\">zacharytalis.com</a></div><div class=\"tralbumData tralbum-credits\">&nbsp;<br>\n track 9 samples \"insert coin to continue\" by goodnight girl used with permission\n<br>\n\n<br>\nart by velvet\n            </div></div><p></p>",
+    "loopModeDefault": "none"
+}
