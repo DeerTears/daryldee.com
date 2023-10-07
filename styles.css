@@ -18,8 +18,9 @@ html{
 iframe{
   display:block;
   margin:auto;
-  width:95%;
+  width:90%;
   height:100%;
+  min-height: 400px
 }
 /* === DROPDOWN HEADER === */
 
