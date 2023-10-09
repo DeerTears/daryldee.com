@@ -2,74 +2,74 @@
     "title": "two tone",
     "media": [
         {
-            "file": "01 fighting anger.opus",
+            "file": "01_fighting_anger.opus",
             "type": "audio",
             "info": "",
             "feature": true,
             "title": "fighting anger"
         },
         {
-            "file": "02 earbuds for effect.opus",
+            "file": "02_earbuds_for_effect.opus",
             "type": "audio",
             "title": "earbuds for effect"
         },
         {
-            "file": "03 comm-e.opus",
+            "file": "03_comm_e.opus",
             "type": "audio",
             "title": "comm-e"
         },
         {
-            "file": "04 i miss the spotlight.opus",
+            "file": "04_i_miss_the_spotlight.opus",
             "type": "audio",
             "title": "i miss the spotlight"
         },
         {
-            "file": "05 gated.opus",
+            "file": "05_gated.opus",
             "type": "audio",
             "title": "gated"
         },
         {
-            "file": "06 learning in pajamas.opus",
+            "file": "06_learning_in_pajamas.opus",
             "type": "audio",
             "title": "learning in pajamas"
         },
         {
-            "file": "07 family time.opus",
+            "file": "07_family_time.opus",
             "type": "audio",
             "title": "family time"
         },
         {
-            "file": "08 just jamming (feat. bigbullybiggs).opus",
+            "file": "08_just_jamming_(feat_bigbullybiggs).opus",
             "type": "audio",
             "title": "just jamming (feat. bigbullybiggs)"
         },
         {
-            "file": "09 heartline.opus",
+            "file": "09_heartline.opus",
             "type": "audio",
             "title": "heartline"
         },
         {
-            "file": "10 you coulda sit out.opus",
+            "file": "10_you_coulda_sit_out.opus",
             "type": "audio",
             "title": "you coulda sit out"
         },
         {
-            "file": "11 not pawz.opus",
+            "file": "11_not_pawz.opus",
             "type": "audio",
             "title": "not pawz"
         },
         {
-            "file": "12 digital wobble.opus",
+            "file": "12_digital_wobble.opus",
             "type": "audio",
             "title": "digital wobble"
         },
         {
-            "file": "13 smoke and ash.opus",
+            "file": "13_smoke_and_ash.opus",
             "type": "audio",
             "title": "smoke and ash"
         },
         {
-            "file": "14 empty lament.opus",
+            "file": "14_empty_lament.opus",
             "type": "audio",
             "title": "empty lament"
         }
