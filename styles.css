@@ -51,10 +51,13 @@ h3{
 
 /* === LINKTREE === */
 .linktree{
+  display:block;
+  margin-left:2%;
+  margin-right:2%;
   background-color: var(--off-accent);
   overflow: hidden;
   text-align: right;
-  max-width: 300px;
+  max-width: 281px;
   list-style: none;
   padding: 12px;
   font-size: var(--large);
