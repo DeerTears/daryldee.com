@@ -1,5 +1,13 @@
 /* === GENERAL === */
 
+:root{
+  --largest: 24pt;
+  --large: 18pt;
+  --medium: 14pt;
+  --small: 12pt;
+  --smallest: 8pt;
+}
+
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
@@ -15,18 +23,30 @@ html{
   height:100%;
 }
 
-iframe.scritch{
-  display:block;
-  margin:auto;
-  width: calc(100% - 20px);
-  max-width: 925px;
-  /* if wide*/
-  min-height: 516px;
-  /* if narrow */
-  @media screen and (min-width: 600px){
-    min-height: 566px;
-  }
+/* === TEXT === */
+
+h1{
+  font-size: var(--largest);
 }
+
+h2{
+  font-size: var(--large);
+}
+
+h3{
+  font-size: var(--medium);
+}
+
+/* === LINKTREE === */
+.linktree{
+  background-color: yellow;
+  overflow: hidden;
+  max-width: 160px;
+  list-style: none;
+  padding: 12px;
+  font-size: var(--large);
+}
+
 /* === DROPDOWN HEADER === */
 
 /* Style the content */
@@ -136,4 +156,19 @@ iframe.scritch{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+/* === SCRITCH === */
+
+iframe.scritch{
+  display:block;
+  margin:auto;
+  width: calc(100% - 20px);
+  max-width: 925px;
+  /* if wide*/
+  min-height: 516px;
+  /* if narrow */
+  @media screen and (min-width: 600px){
+    min-height: 566px;
+  }
 }
