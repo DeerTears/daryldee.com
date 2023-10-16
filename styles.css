@@ -6,6 +6,13 @@
   --medium: 14pt;
   --small: 12pt;
   --smallest: 8pt;
+  
+  --dark: #333;
+  --off-dark: #555;
+  --off-light: #ddd;
+  --light: #eee;
+  --accent: #eb00a1;
+  --off-accent: #220017;
 }
 
 * {
@@ -17,6 +24,11 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   height:100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--accent);
 }
 
 html{
@@ -39,26 +51,35 @@ h3{
 
 /* === LINKTREE === */
 .linktree{
-  background-color: yellow;
+  background-color: var(--off-accent);
   overflow: hidden;
-  max-width: 160px;
+  text-align: right;
+  max-width: 300px;
   list-style: none;
   padding: 12px;
   font-size: var(--large);
+  
 }
+
+.linktree > li{
+  margin-top: 12px;
+  margin-bottom: 12px;
+  
+}
+
 
 /* === DROPDOWN HEADER === */
 
 /* Style the content */
 .content {
-  background-color: #ddd;
+  background-color: var(--off-light);
   padding: 10px;
   
 }
 
 /* Style the footer */
 .footer {
-  background-color: #f1f1f1;
+  background-color: var(--light);
   padding: 10px;
 }
 
