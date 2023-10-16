@@ -9,9 +9,9 @@
   
   --dark: #333;
   --off-dark: #555;
-  --off-light: #ddd;
-  --light: #eee;
-  --accent: #eb00a1;
+  --off-light: #aaa;
+  --light: #ddd;
+  --accent: #ff11b4;
   --off-accent: #220017;
 }
 
@@ -58,13 +58,15 @@ h3{
   list-style: none;
   padding: 12px;
   font-size: var(--large);
-  
+  border-radius: 12px;
 }
 
 .linktree > li{
   margin-top: 12px;
   margin-bottom: 12px;
-  
+  padding: 8px;
+  background-color: var(--light);
+  border-radius:3px;
 }
 
 
@@ -72,15 +74,16 @@ h3{
 
 /* Style the content */
 .content {
-  background-color: var(--off-light);
+  background-color: var(--light);
   padding: 10px;
   
 }
 
 /* Style the footer */
 .footer {
-  background-color: var(--light);
+  background-color: var(--off-dark);
   padding: 10px;
+  color: var(--light);
 }
 
  /* Navbar container */
