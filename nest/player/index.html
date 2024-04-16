@@ -8,47 +8,48 @@
   </head>
   <body>
     <div class="main">
-    <audio id="musicplayer" controls="" preload="auto" src=""></audio>
-    <div class="list">
+      <div class="audio_panel">
+        <div id="nowplaying">this</div>
+        <audio id="musicplayer" controls="" preload="auto" src=""></audio>
+      </div>
+      <div class="list">
         <button onclick="">Garbage - When I Grow Up</button>
-        <button onclick="changeAudio(1)">Third Eye Blind - Graduate</button>
-        <button onclick="changeAudio(2)">Mad Capsule Markets - MIDI Surf</button>
-    </div>
-    
-    <img src="/nest/art/by_LilleRev.jpg"/>
-    </div>
-    <script type='text/javascript'>
+        <button onclick="">Third Eye Blind - Graduate</button>
+        <button onclick="">Mad Capsule Markets - MIDI Surf</button>
+      </div>
 
-        const audioFiles = [
-            "music/Garbage - When I Grow Up.opus",
-            "music/Third Eye Blind - Graduate.opus",
-            "music/Mad Capsule Markets - MIDI Surf.opus"
-            ];
-        
-        let currentAudioIndex = 0;
-        const audioElement = document.getElementById('musicplayer');
-        
-        function changeAudio(audioURL) {
-            audioElement.src = audioURL;
-            audioElement.load();
-            audioElement.play();
-        }
-        
-        document.querySelectorAll('button').forEach(function(button, index) {
-            button.addEventListener('click', function() {
-                currentAudioIndex = index;
-                const audioURL = audioFiles[currentAudioIndex];
-                changeAudio(audioURL);
-            });
+      <img class="art" src="/nest/art/by_LilleRev.jpg" />
+    </div>
+    <script type="text/javascript">
+      const audioFiles = [
+        "music/Garbage - When I Grow Up.opus",
+        "music/Third Eye Blind - Graduate.opus",
+        "music/Mad Capsule Markets - MIDI Surf.opus",
+      ];
+
+      let currentAudioIndex = 0;
+      const audioElement = document.getElementById("musicplayer");
+
+      function changeAudio(audioURL) {
+        audioElement.src = audioURL;
+        audioElement.load();
+        audioElement.play();
+        document.getElementsById("nowplaying").textContent = "playing";
+      }
+
+      document.querySelectorAll("button").forEach(function (button, index) {
+        button.addEventListener("click", function () {
+          currentAudioIndex = index;
+          const audioURL = audioFiles[currentAudioIndex];
+          changeAudio(audioURL);
         });
-        
-        audioElement.addEventListener('ended', function() {
-            currentAudioIndex = (currentAudioIndex + 1) % audioFiles.length;
-            const nextAudioURL = audioFiles[currentAudioIndex];
-            changeAudio(nextAudioURL);
-        });
-        
-        </script>
+      });
+
+      audioElement.addEventListener("ended", function () {
+        currentAudioIndex = (currentAudioIndex + 1) % audioFiles.length;
+        const nextAudioURL = audioFiles[currentAudioIndex];
+        changeAudio(nextAudioURL);
+      });
+    </script>
   </body>
-
 </html>
