@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>player</title>
+    <link rel="stylesheet" href="/nest/player/style.css" />
+  </head>
+  <body>
+    <div class="main">
+    <audio id="musicplayer" controls="" preload="auto" src=""></audio>
+    <div class="list">
+        <button onclick="">Garbage - When I Grow Up</button>
+        <button onclick="changeAudio(1)">Third Eye Blind - Graduate</button>
+        <button onclick="changeAudio(2)">Mad Capsule Markets - MIDI Surf</button>
+    </div>
+    
+    <img src="/nest/art/by_LilleRev.jpg"/>
+    </div>
+    <script type='text/javascript'>
+
+        const audioFiles = [
+            "music/Garbage - When I Grow Up.opus",
+            "music/Third Eye Blind - Graduate.opus",
+            "music/Mad Capsule Markets - MIDI Surf.opus"
+            ];
+        
+        let currentAudioIndex = 0;
+        const audioElement = document.getElementById('musicplayer');
+        
+        function changeAudio(audioURL) {
+            audioElement.src = audioURL;
+            audioElement.load();
+            audioElement.play();
+        }
+        
+        document.querySelectorAll('button').forEach(function(button, index) {
+            button.addEventListener('click', function() {
+                currentAudioIndex = index;
+                const audioURL = audioFiles[currentAudioIndex];
+                changeAudio(audioURL);
+            });
+        });
+        
+        audioElement.addEventListener('ended', function() {
+            currentAudioIndex = (currentAudioIndex + 1) % audioFiles.length;
+            const nextAudioURL = audioFiles[currentAudioIndex];
+            changeAudio(nextAudioURL);
+        });
+        
+        </script>
+  </body>
+
+</html>
