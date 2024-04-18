@@ -9,12 +9,14 @@
   <body>
     <div class="main">
       <div class="audio_panel">
-        <div id="nowplaying">this</div>
+        <div id="nowplaying"></div>
         <audio id="musicplayer" controls="" preload="auto" src=""></audio>
       </div>
+      <h2>personal mixtape</h2>
       <div class="list">
         <button onclick="">Garbage - When I Grow Up</button>
         <button onclick="">Third Eye Blind - Graduate</button>
+        <button onclick="">The Strokes - You Talk Way Too Much</button>
         <button onclick="">Mad Capsule Markets - MIDI Surf</button>
       </div>
 
@@ -24,7 +26,8 @@
       const audioFiles = [
         "music/Garbage - When I Grow Up.opus",
         "music/Third Eye Blind - Graduate.opus",
-        "music/Mad Capsule Markets - MIDI Surf.opus",
+        "music/The Strokes - You Talk Way Too Much.opus",
+        "music/Mad Capsule Markets - MIDI Surf.opus"
       ];
 
       let currentAudioIndex = 0;
