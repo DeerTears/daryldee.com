@@ -16,9 +16,9 @@ body {
 
 /* Create four equal columns that sits next to each other */
 .column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+  flex: 50%;
+  max-width: 50%;
+  padding-left: 4;
 }
 
 .column img {
@@ -27,7 +27,7 @@ body {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .column {
     flex: 50%;
     max-width: 50%;
