@@ -48,7 +48,7 @@ body {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  background-color: #3c5d6e;
+  background-color: #ed00de;
   background-position: 50%;
   border-radius: 6px;
   outline: none;
@@ -58,7 +58,7 @@ body {
 }
 .button:hover,
 .button:focus {
-  border-color: #7aa8b7;
+  border-color: #ed00de;
   background-image: url(/images/texturegifs_002.gif);
   .icon{
     -webkit-filter: invert(100%);
@@ -83,6 +83,9 @@ body {
   
 }
 
-h2{
+h1{
+  font-size: 72pt;
+}
+h1, h2{
   padding-left:12px;
 }
