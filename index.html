@@ -12,6 +12,16 @@
   <body>
     <!--<img src="images/hero.png" wlidth="100%"/>-->
     <h1>daryl dee</h1>
+    <div class="a" id="a">
+      <span class="scroll-fwd">daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee </span>
+    </div>
+    <div class="b" onclick="" onmouseenter="" onmouseout="">
+      <span class="scroll-bwd">daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee </span>
+    </div>
+    <div class="c" onclick="" onmouseenter="" onmouseout="">
+      <span class="scroll-fwd">daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee </span>
+    </div>
+    </div>
     <h2>listen now</h2>
     <div class="row"> 
       <div class="column">
@@ -45,4 +55,45 @@
       </div>
     </div>
   </body>
+  <script>
+    const topButton = document.getElementsByClassName("a")[0];
+    topButton.addEventListener("click", topLink);
+    topButton.addEventListener("mouseenter", topChange);
+    topButton.addEventListener("mouseleave", topNormal);
+    const midButton = document.getElementsByClassName("b")[0];
+    midButton.addEventListener("click", midLink);
+    midButton.addEventListener("mouseenter", midChange);
+    midButton.addEventListener("mouseleave", midNormal);
+    const lowButton = document.getElementsByClassName("c")[0];
+    lowButton.addEventListener("click", lowLink);
+    lowButton.addEventListener("mouseenter", lowChange);
+    lowButton.addEventListener("mouseleave", lowNormal);
+    function topLink(){
+      document.location.href = "/about";
+    }
+    function midLink(){
+      document.location.href = "/photos";
+    }
+    function lowLink(){
+      document.location.href = "/secrets";
+    }
+    function topChange(){
+      document.getElementsByClassName("a")[0].innerHTML = '<span class="scroll-fwd">about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about</span>';
+    }
+    function topNormal(){
+      document.getElementsByClassName("a")[0].innerHTML = '<span class="scroll-fwd">daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee </span>';
+    }
+    function midChange(){
+      document.getElementsByClassName("b")[0].innerHTML = '<span class="scroll-bwd">photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos photos</span>';
+    }
+    function midNormal(){
+      document.getElementsByClassName("b")[0].innerHTML = '<span class="scroll-bwd">daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee </span>';
+    }
+    function lowChange(){
+      document.getElementsByClassName("c")[0].innerHTML = '<span class="scroll-fwd">secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets secrets</span>';
+    }
+    function lowNormal(){
+      document.getElementsByClassName("c")[0].innerHTML = '<span class="scroll-fwd">daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee daryl dee </span>';
+    }
+  </script>
 </html>
