@@ -9,6 +9,24 @@ body {
   /* background-image: url(/images/tile.png); */
 }
 
+
+img.pixel{
+  width:48px;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+span.pixel{
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Pixelify Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24pt;
+  position: relative;
+  src: url('../fonts/pixelify-sans-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 /* scrolling bar shenanigans start */
 
 div.a, div.b, div.c{
