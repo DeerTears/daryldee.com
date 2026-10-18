@@ -176,8 +176,13 @@ div.linkbuttons{
 h1{
   font-size: 72pt;
   line-height: 48pt;
-  
   margin-top:24px;
+}
+h1.imageheader{
+  padding:0;
+  margin-top:12px;
+  margin-bottom:18px;
+  
 }
 h1, h2{
   padding-left:12px;
